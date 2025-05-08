@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiCode, FiDatabase, FiBarChart2, FiZap, FiCommand } from 'react-icons/fi';
 import { useRef, useEffect, useState } from 'react';
 
