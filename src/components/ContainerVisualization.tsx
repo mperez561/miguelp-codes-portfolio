@@ -1,4 +1,4 @@
-import React, { useMemo, useEffect, useState, useRef } from 'react';
+import React, { useMemo, useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Box, Edges } from '@react-three/drei';
 import type { BoxItem } from '../pages/ShippingOptimizerDemo';
@@ -20,13 +20,6 @@ const generateColor = (itemId: string): THREE.Color => {
   hue = (hue % 360 + 360) % 360; // Ensure positive hue
   return new THREE.Color(`hsl(${hue}, 70%, 60%)`);
 };
-
-// Define a point in 3D space
-interface Point {
-  x: number;
-  y: number;
-  z: number;
-}
 
 // Define a box with dimensions and position
 interface PackedBox {
