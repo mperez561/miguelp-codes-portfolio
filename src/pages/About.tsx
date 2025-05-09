@@ -120,7 +120,6 @@ const About = () => {
                 <div className="text-sm text-text-secondary">
                   <p className="mb-2">Location: Southern California</p>
                   <p className="mb-2">Email: perezmiguel561@gmail.com</p>
-                  <p className="mb-2">Phone: (909) 636-9528</p>
                 </div>
                 <a
                   href="/resume.pdf"
@@ -130,7 +129,7 @@ const About = () => {
                   className="btn-primary w-full flex items-center justify-center mt-4"
                 >
                   <span className="flex items-center justify-center">
-                    <FiDownload className="mr-2" /> Download Résumé
+                    <FiDownload className="mr-2" /> Download Resume
                   </span>
                 </a>
               </div>

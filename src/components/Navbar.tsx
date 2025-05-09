@@ -62,6 +62,7 @@ const Navbar = () => {
     { name: 'About', path: '/about' },
     { name: 'Resume', path: '/resume' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Optimizer Demo', path: '/shipping-optimizer-demo' },
   ];
 
   // Define your custom colors here or ensure they are in your tailwind.config.js

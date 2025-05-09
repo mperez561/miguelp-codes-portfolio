@@ -28,14 +28,14 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: 'Shipping Optimization Tool',
-      description: 'A 3D visualization and optimization system for shipping containers using Python and Streamlit, replacing legacy Excel models with an interactive application that improves packing efficiency.',
-      technologies: ['Python', 'Streamlit', 'Matplotlib', 'Pandas'],
+      title: 'Interactive Shipping Optimizer',
+      description: 'An interactive web application demonstrating 3D bin packing for shipping containers. Users can define item dimensions, quantities, and container sizes, then visualize the packed items in a real-time 3D model. Includes features like dynamic item color-coding and handling of unplaceable items.',
+      technologies: ['React', 'TypeScript', 'Three.js (R3F)', 'TailwindCSS'],
       image: '/images/shipping.jpg',
-      category: 'data',
+      category: 'web',
       links: {
         github: 'https://github.com/mperez561/shipping-optimizer',
-        live: null
+        live: '/shipping-optimizer-demo'
       }
     },
     {

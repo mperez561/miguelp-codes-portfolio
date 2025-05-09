@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import ResumePage from './pages/Resume';
+import ShippingOptimizerDemo from './pages/ShippingOptimizerDemo';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -39,6 +40,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<ResumePage />} />
+            <Route path="/shipping-optimizer-demo" element={<ShippingOptimizerDemo />} />
           </Routes>
         </main>
         <Footer />
