@@ -7,6 +7,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import ResumePage from './pages/Resume';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/resume" element={<ResumePage />} />
           </Routes>
         </main>
         <Footer />

@@ -123,7 +123,8 @@ const About = () => {
                   <p className="mb-2">Phone: (909) 636-9528</p>
                 </div>
                 <a
-                  href="/Miguel_Perez_Resume.pdf"
+                  href="/resume.pdf"
+                  download="Miguel_Perez_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary w-full flex items-center justify-center mt-4"
