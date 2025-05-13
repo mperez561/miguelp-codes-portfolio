@@ -160,22 +160,6 @@ const Contact = () => {
                     </a>
                   </div>
                 </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-accent/20 p-3 rounded-full mr-4">
-                    <FiPhone className="text-highlight" size={20} />
-                  </div>
-                  <div>
-                    <h3 className="text-text-primary font-medium mb-1">Phone</h3>
-                    <a 
-                      href="tel:9096369528" 
-                      className="text-text-secondary hover:text-highlight transition-colors"
-                    >
-                      (909) 636-9528
-                    </a>
-                  </div>
-                </div>
-                
                 <div className="flex items-start">
                   <div className="bg-accent/20 p-3 rounded-full mr-4">
                     <FiLinkedin className="text-highlight" size={20} />
