@@ -1,6 +1,6 @@
 import { useState, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { FiMail, FiPhone, FiLinkedin, FiGithub, FiSend } from 'react-icons/fi';
+import { FiMail, FiLinkedin, FiGithub, FiSend } from 'react-icons/fi';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
